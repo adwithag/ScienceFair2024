@@ -184,7 +184,7 @@ def server(input, output, session):
 app_ui = ui.page_fluid(
     ui.br(),
     ui.h1('Smart Screening for Cytochrome P450 Inhibitors: AI Meets Drug Discovery'),
-    ui.h4('Adwaitha Gadachanda'),
+    ui.h4('Adwitha Gadhachanda'),
     ui.br(),
     ui.input_text(id="smiles", label="Enter SMILES Rep:", value="NC(=O)C1=CN([C@@H]2O[C@@H](COP(=O)([O-])OP(=O)([O-])OC[C@@H]3O[C@H](n4cnc5c(N)ncnc54)[C@@H](OP(=O)([O-])[O-])[C@@H]3O)[C@H](O)[C@@H]2O)C=CC1.[Na+].[Na+].[Na+].[Na+]"),
     ui.br(),
